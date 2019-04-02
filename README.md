@@ -1,0 +1,1 @@
+# TestBizTalkQuickProject
