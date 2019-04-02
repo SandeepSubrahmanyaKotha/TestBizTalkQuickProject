@@ -3,7 +3,7 @@
 
 This is a quick project to test whether someone has knowledge about:
 
-1. Createing a flatfile schema
+1. Create a flatfile schema
 2. Create a map using XSLT
 3. Understands routing and context properties in BizTalk
 4. Understand git / github
