@@ -70,22 +70,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Schema Include="schFF.xsd">
-      <TypeName>schFF</TypeName>
-      <Namespace>TestFF.Schemas</Namespace>
-      <SubType>Task</SubType>
-    </Schema>
-  </ItemGroup>
-  <ItemGroup>
     <Schema Include="schXML.xsd">
       <TypeName>schXML</TypeName>
-      <Namespace>TestFF.Schemas</Namespace>
-      <SubType>Task</SubType>
-    </Schema>
-  </ItemGroup>
-  <ItemGroup>
-    <Schema Include="psRouting.xsd">
-      <TypeName>psRouting</TypeName>
       <Namespace>TestFF.Schemas</Namespace>
       <SubType>Task</SubType>
     </Schema>

@@ -71,13 +71,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Pipeline Include="rcvFF.btp">
-      <TypeName>rcvFF</TypeName>
-      <Namespace>TestFF.Pipelines</Namespace>
-      <SubType>Task</SubType>
-    </Pipeline>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\TestFF.Schemas\TestFF.Schemas.btproj">
       <Project>{fbcfef86-12bc-4121-ac7d-e58dfe41f035}</Project>
       <Name>TestFF.Schemas</Name>

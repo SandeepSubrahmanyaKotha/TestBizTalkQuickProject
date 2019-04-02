@@ -70,13 +70,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Map Include="mapFFToXml.btm">
-      <TypeName>mapFFToXml</TypeName>
-      <Namespace>TestFF.Transforms</Namespace>
-      <SubType>Task</SubType>
-    </Map>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\TestFF.Schemas\TestFF.Schemas.btproj">
       <Project>{fbcfef86-12bc-4121-ac7d-e58dfe41f035}</Project>
       <Name>TestFF.Schemas</Name>
@@ -84,9 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="TestFF.snk" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Xslt\mapFFToXml.xsl" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\BizTalk\BizTalkC.targets" />
