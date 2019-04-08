@@ -77,6 +77,16 @@
     </Schema>
   </ItemGroup>
   <ItemGroup>
+    <Schema Include="InputTestFF.xsd">
+      <TypeName>InputTestFF</TypeName>
+      <Namespace>TestFF.Schemas</Namespace>
+      <SubType>Task</SubType>
+    </Schema>
+    <Schema Include="PropertySchema.xsd">
+      <TypeName>PropertySchema</TypeName>
+      <Namespace>TestFF.Schemas.PropertySchema</Namespace>
+      <SubType>Task</SubType>
+    </Schema>
     <None Include="TestFF.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
